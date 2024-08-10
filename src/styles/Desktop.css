@@ -1,0 +1,118 @@
+/* src/styles/Desktop.css */
+
+.menu-separator {
+  height: 1px;
+  background-color: #808080;
+  margin: 2px 0;
+}
+
+.desktop-icon {
+  width: 100px; /* Maintain the width */
+  text-align: center;
+  margin: 10px 0; /* Adjust the margin to align vertically */
+  cursor: pointer;
+  user-select: none;
+  position: absolute;
+  transition: all 0.2s ease; /* Smooth transition for hover and selection effects */
+}
+
+.desktop-icon-image {
+  width: 50px; /* Set the size to 50px */
+  height: 50px; /* Set the size to 50px */
+  margin-bottom: 10px; /* Add some space between the icon and text */
+}
+
+.desktop-icon-name {
+  font-size: 14px; /* Increase the font size */
+  color: black;
+  display: block;
+  margin-top: 5px;
+}
+
+.selected {
+  opacity: 0.8; /* Slightly transparent for a soft highlight */
+}
+
+.selected .desktop-icon-image {
+  filter: brightness(1.2); /* Slightly increase brightness for the icon */
+}
+
+.selected .desktop-icon-name {
+  color: white; /* Keep text color white for contrast */
+  background-color: rgba(0, 120, 215, 0.3); /* Transparent blue background for highlight */
+  border-radius: 3px; /* Slightly rounded corners */
+  padding: 2px 4px; /* Padding around the text */
+  display: inline-block; /* Ensures the background covers only the text */
+}
+
+.main-content {
+  flex: 1;
+  width: 100%;
+  overflow: hidden; /* Prevent overflow within the main content */
+}
+
+.taskbar {
+  width: 100%;
+  height: 40px;
+  background-color: #c3c3c3; /* Taskbar background color */
+  display: flex;
+  justify-content: flex-start; /* Align start button and taskbar icons to the left */
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  z-index: 100;
+}
+
+.taskbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.taskbar-icons {
+  display: flex;
+  align-items: center;
+  margin-left: 5px; /* Adjust spacing */
+}
+
+.taskbar-icon {
+  background-color: #c3c3c3; /* Same color as taskbar */
+  color: black;
+  border: 1px solid #808080; /* Dark gray border */
+  box-shadow: inset 1px 1px 0px #fff, inset -1px -1px 0px #808080; /* Beveled effect */
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.taskbar-icon img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.taskbar-icon.active {
+  background-color: #c3c3c3;
+  box-shadow: inset -1px -1px 0px #fff, inset 1px 1px 0px #808080; /* Pressed-in effect */
+}
+
+.taskbar-separator {
+  margin: 0 5px;
+  color: black;
+  font-weight: bold;
+}
+
+.container.show-background {
+  background-image: url('/public/background.png'); /* Set background image */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+}
+
+.container.loaded {
+  background-color: rgb(51, 102, 153); /* Updated background color */
+  color: black; /* Change text color for final state if needed */
+  justify-content: center; /* Center the login container vertically */
+  align-items: center; /* Center the login container horizontally */
+}
