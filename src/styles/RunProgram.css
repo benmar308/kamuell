@@ -4,7 +4,7 @@
   position: absolute;
   width: 400px;
   height: 300px;
-  background-color: white;
+  background-color: #c3c3c3;
   border: 1px solid black;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: none; /* Remove transition for smoother dragging */

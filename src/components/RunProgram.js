@@ -1,6 +1,4 @@
-// src/components/RunProgram.js
-
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import '../styles/RunProgram.css';
 
 const RunProgram = ({ id, title, content, onMinimize, onClose, isMinimized, position, zIndex, onClick, isMaximized: initialMaximized }) => {
@@ -41,7 +39,7 @@ const RunProgram = ({ id, title, content, onMinimize, onClose, isMinimized, posi
     }
   };
 
-  const handleMouseMove = (e) => {
+  const handleMouseMove = useCallback((e) => {
     if (isDragging) {
       const newPosition = {
         x: e.clientX - offsetRef.current.x,
@@ -54,7 +52,7 @@ const RunProgram = ({ id, title, content, onMinimize, onClose, isMinimized, posi
         setCurrentPosition(newPosition);
       });
     }
-  };
+  }, [isDragging]);
 
   useEffect(() => {
     if (isDragging) {
@@ -72,7 +70,7 @@ const RunProgram = ({ id, title, content, onMinimize, onClose, isMinimized, posi
         cancelAnimationFrame(dragRef.current);
       }
     };
-  }, [isDragging]);
+  }, [isDragging, handleMouseMove]);
 
   useEffect(() => {
     setIsMaximized(initialMaximized);
