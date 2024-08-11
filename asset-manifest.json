@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/kamuell/static/css/main.3dafe7d2.css",
-    "main.js": "/kamuell/static/js/main.2f61a0da.js",
+    "main.css": "/kamuell/static/css/main.029b025e.css",
+    "main.js": "/kamuell/static/js/main.c236ada0.js",
     "static/js/453.74dbbcd6.chunk.js": "/kamuell/static/js/453.74dbbcd6.chunk.js",
     "static/media/background.png": "/kamuell/static/media/background.67163d09a9c58e0c2913.png",
     "index.html": "/kamuell/index.html",
-    "main.3dafe7d2.css.map": "/kamuell/static/css/main.3dafe7d2.css.map",
-    "main.2f61a0da.js.map": "/kamuell/static/js/main.2f61a0da.js.map",
+    "main.029b025e.css.map": "/kamuell/static/css/main.029b025e.css.map",
+    "main.c236ada0.js.map": "/kamuell/static/js/main.c236ada0.js.map",
     "453.74dbbcd6.chunk.js.map": "/kamuell/static/js/453.74dbbcd6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3dafe7d2.css",
-    "static/js/main.2f61a0da.js"
+    "static/css/main.029b025e.css",
+    "static/js/main.c236ada0.js"
   ]
 }
