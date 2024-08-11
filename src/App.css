@@ -1,0 +1,43 @@
+
+/* src/App.css */
+
+@import './styles/Desktop.css';
+@import './styles/RightClick.css';
+@import './styles/SelectionBox.css';
+@import './styles/StartMenu.css';
+@import './styles/LoginScreen.css';
+@import './styles/BiosScreen.css';
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden; /* Prevent overflow on the root elements */
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  overflow: hidden; /* Prevent overflow within the App */
+}
+
+.container {
+  width: 800px;
+  height: 600px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  color: white; /* Color for BIOS text */
+  font-family: monospace;
+  transition: background-color 1s, color 1s, background-image 0.5s; /* Include background image transition */
+  overflow: hidden; /* Prevent overflow within the container */
+  position: relative; /* For positioning the setup message and logo */
+}
+
+
+
+

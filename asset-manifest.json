@@ -1,0 +1,67 @@
+{
+  "files": {
+<<<<<<< HEAD
+    "main.css": "/kamuell/static/css/main.9fd03685.css",
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    "main.js": "/kamuell/static/js/main.21ec99a7.js",
+=======
+    "main.js": "/kamuell/static/js/main.24c9c5f3.js",
+>>>>>>> origin/gh-pages
+=======
+    "main.js": "/kamuell/static/js/main.24c9c5f3.js",
+>>>>>>> origin/gh-pages
+=======
+    "main.js": "/kamuell/static/js/main.24c9c5f3.js",
+>>>>>>> origin/gh-pages
+    "static/js/453.74dbbcd6.chunk.js": "/kamuell/static/js/453.74dbbcd6.chunk.js",
+    "static/media/background.png": "/kamuell/static/media/background.67163d09a9c58e0c2913.png",
+    "index.html": "/kamuell/index.html",
+    "main.9fd03685.css.map": "/kamuell/static/css/main.9fd03685.css.map",
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    "main.21ec99a7.js.map": "/kamuell/static/js/main.21ec99a7.js.map",
+=======
+    "main.24c9c5f3.js.map": "/kamuell/static/js/main.24c9c5f3.js.map",
+>>>>>>> origin/gh-pages
+=======
+    "main.24c9c5f3.js.map": "/kamuell/static/js/main.24c9c5f3.js.map",
+>>>>>>> origin/gh-pages
+=======
+    "main.24c9c5f3.js.map": "/kamuell/static/js/main.24c9c5f3.js.map",
+>>>>>>> origin/gh-pages
+    "453.74dbbcd6.chunk.js.map": "/kamuell/static/js/453.74dbbcd6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fd03685.css",
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    "static/js/main.21ec99a7.js"
+=======
+    "static/js/main.24c9c5f3.js"
+>>>>>>> origin/gh-pages
+=======
+    "static/js/main.24c9c5f3.js"
+>>>>>>> origin/gh-pages
+=======
+    "static/js/main.24c9c5f3.js"
+>>>>>>> origin/gh-pages
+=======
+    "main.css": "/kamuell/static/css/main.e93494ec.css",
+    "main.js": "/kamuell/static/js/main.0eca27e9.js",
+    "static/js/453.74dbbcd6.chunk.js": "/kamuell/static/js/453.74dbbcd6.chunk.js",
+    "static/media/background.png": "/kamuell/static/media/background.67163d09a9c58e0c2913.png",
+    "index.html": "/kamuell/index.html",
+    "main.e93494ec.css.map": "/kamuell/static/css/main.e93494ec.css.map",
+    "main.0eca27e9.js.map": "/kamuell/static/js/main.0eca27e9.js.map",
+    "453.74dbbcd6.chunk.js.map": "/kamuell/static/js/453.74dbbcd6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e93494ec.css",
+    "static/js/main.0eca27e9.js"
+>>>>>>> 1549655335c4236d08af0c09dd393b2aa3f502d1
+  ]
+}
